@@ -11,7 +11,9 @@ namespace GettingHandDirtyWIthCSharp.ConsoleApplication
             //Write code that reads in an integer and that outputs number multiplied by 22
             Console.WriteLine("Enter an integer: ");
             //int num = Console.Read() - 48;   //Reads only a single character and returns its ASCII value
-            int num = Convert.ToInt32(Console.ReadLine());
+
+            int num = Convert.ToInt32(Console.ReadLine());    //Reads input as string and conerts string into integer 
+                                                                
             int product = num * 22;
             Console.WriteLine(num + " * 22 = " + product);
         }
@@ -20,7 +22,7 @@ namespace GettingHandDirtyWIthCSharp.ConsoleApplication
         {
             //Write code that reads in an integer and that outputs the difference between number and 27.
             Console.WriteLine("Enter an integer: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+            int num = Convert.ToInt32(Console.ReadLine());   //(METHOD 1 OF CONVERSION).
             int difference = num - 27;
             Console.WriteLine(num + " - 27 = " + difference);
         }

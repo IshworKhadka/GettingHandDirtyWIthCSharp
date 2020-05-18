@@ -7,8 +7,8 @@ namespace GettingHandDirtyWIthCSharp
     {
         static void Main(string[] args)
         {
-            DrillExercises02 dr2 = new DrillExercises02();
-            dr2.MultipleLineWords();
+            Practical02 pr2 = new Practical02();
+            pr2.ChangeDispenser();
 
             //DrillExercises08 de = new DrillExercises08();
             //test git push
