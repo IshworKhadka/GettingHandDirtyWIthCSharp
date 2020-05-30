@@ -87,6 +87,11 @@ namespace GettingHandDirtyWIthCSharp.ConsoleApplication
 
         public void ChangeDispenser()
         {
+            /*Your task is to develop software for a machine which dispenses change. It accepts an amount in
+                cents and outputs the ways that amount can be made up from 1, 5 and 20 cent coins (ignoring
+                the fact that we no longer have 1 cent coins) using as many of the larger valued coins as
+                possible. */
+
             int amount;
             int twenties = 0, fives = 0, ones = 0;
             Console.WriteLine("Enter an amount of cents in the range 1 to 100: ");
